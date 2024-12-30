@@ -20,19 +20,22 @@ const Header = () => {
               <NavLink to='/courses'>All Courses</NavLink>
             </li> */}
             <li>
-              <NavLink to="/about">About</NavLink>
-            </li>
-            {/* <li>
-              <NavLink to='/team'>Team</NavLink>
-            </li> */}
-            <li>
-              <NavLink to='/faq'>FAQ</NavLink>
+              <NavLink to="/about">About US</NavLink>
             </li>
             <li>
-              <NavLink to='/journal'>Journal</NavLink>
+              <NavLink to='/faq'>Our Services</NavLink>
             </li>
             <li>
-              <NavLink to='/contact'>Contact</NavLink>
+              <NavLink to='/manpower_recruitment'>Manpower Recruitment</NavLink>
+            </li>
+            <li>
+              <NavLink to='/journal'>Campus Placement</NavLink>
+            </li>
+            <li>
+              <NavLink to='/journal'>Background Verification</NavLink>
+            </li>
+            <li>
+              <NavLink to='/contact'>Contact US</NavLink>
             </li>
           </ul>
           {/* <div className='start'>

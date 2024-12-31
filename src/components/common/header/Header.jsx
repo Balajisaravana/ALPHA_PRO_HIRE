@@ -3,7 +3,8 @@ import React, { useState } from "react"
 import Head from "./Head"
 import "./header.css"
 import { NavLink } from "react-router"
-import APH_ICON from '../../../assets/Alpha_bg_icon.png'
+import Alaph_icon from '../../../assets/Alpha_icon_2.png'
+
 const Header = () => {
   const [click, setClick] = useState(false)
 
@@ -25,7 +26,7 @@ const Header = () => {
             <li>
               <NavLink to='/faq'>Our Services</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to='/manpower_recruitment'>Manpower Recruitment</NavLink>
             </li>
             <li>
@@ -33,15 +34,16 @@ const Header = () => {
             </li>
             <li>
               <NavLink to='/journal'>Background Verification</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to='/contact'>Contact US</NavLink>
             </li>
           </ul>
-          {/* <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
-             <img width={120} height={40} src={APH_ICON} alt="" />
-          </div> */}
+          <div className='start'>
+          <img width={120} height={40} src={Alaph_icon} alt="" />
+
+          </div>
+          
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>

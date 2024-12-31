@@ -16,6 +16,14 @@
 .contacts .items {
   margin: 30px 0;
 }
+.contact-submit{ 
+  
+  display:flex; 
+  align-items : center; 
+  gap: 10px; 
+  flex-direction:row;
+}
+
 .contacts .box p {
   font-size: 17px;
   margin-top: 10px;

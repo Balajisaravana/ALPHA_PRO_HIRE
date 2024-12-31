@@ -14,7 +14,7 @@ const Head = () => {
 
             </h1>
             <span>Your Success Starts with the Right People.</span> */}
-                          <img width={150} height={50} src={Alpha_} alt="" />
+                          {/* <img width={150} height={50}  alt="" /> */}
 
           </div>
 

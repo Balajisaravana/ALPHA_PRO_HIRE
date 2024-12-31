@@ -8,7 +8,7 @@ const AboutCard = () => {
   return (
     <>
       <section className='aboutHome'>
-        <div className='container flexSB'>
+        <div className='container flexSB' >
           <div className='left row'>
             <img src='./images/about.webp' alt='' />
           </div>
